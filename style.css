@@ -1,0 +1,140 @@
+@import url(reset.css);
+* {
+    font-size: 16px;
+}
+body {
+    font-family: "Noto Sans TC", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.wrap {
+    width: 1920px;
+    background: #000;
+}
+.container {
+    width: 1296px;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 0 312px;
+    background: #fff;
+}
+.top {
+    text-align: center;
+}
+.header {
+    font-size: 50px;
+}
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #f2f2f2;
+    padding:0 40px;
+    border-radius: 16px;
+}
+.search-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.search-input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.filter-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-icon >img,
+.sortable-icon > img {
+    margin-left: 8px;
+}
+.dropdown, .sortable {
+    background: none;
+    border: 1px solid #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+.button-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-tag li a {
+    padding: 20px;
+    color: #919191;
+}
+.button-tag li a:hover {
+    color: #000;
+    background: #f2f2f2
+}
+.guide-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-item {
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f2f2f2;
+    border-radius: 16px;
+    overflow: hidden;
+    /* margin-bottom: 24px; */
+}
+.card-img {
+    height: 312px;
+    overflow: hidden;
+}
+.card-img img {
+    transform: scale(1, 1);
+    transition: all 0.8s ease-in-out;
+}
+.card-img img:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.8s ease-in-out;
+}
+.item-content {
+    padding: 20px 30px;
+}
+.item-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+ .item-content > p {
+    color: #525252;
+    margin-top: 12px;
+    font-weight: 400;
+    height: 42px;
+}
+.into-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    border-top: 1px solid #f2f2f2;
+    line-height: 1.5;
+}
+.ai {
+    font-weight: 700;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+.footer li a {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 24px;
+}
+.footer li a:hover {
+    background: #000;
+    color: white;
+}
